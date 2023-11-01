@@ -1,0 +1,3 @@
+export const bearerToken =
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJhbmV0b202QGdtYWlsLmNvbSIsImlhdCI6MTY5NTMxNjI1MSwiZXhwIjoxNjk3OTA4MjUxfQ.Wkpo4PpVGF6JW486fQCyQlgPfg2PmLlnn1SrIOsuE1o';
+export const CO_LIMIT = 2000;
