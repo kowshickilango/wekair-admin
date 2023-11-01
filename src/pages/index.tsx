@@ -1,18 +1,14 @@
 import axios from '../utils/axios';
-import { getSession, useSession } from 'next-auth/react';
-import { useEffect, useState } from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
 import ArrowForwardIosRoundedIcon from '@mui/icons-material/ArrowForwardIosRounded';
 import Link from 'next/link';
-import TollTerminalChart from '../components/TollTerminalChart/TollTerminalChart';
 import { bearerToken } from '@/utils/constants';
 import { GetServerSidePropsContext, InferGetServerSidePropsType } from 'next';
 import axiosInstance from '../utils/axios';
 import { AxiosRequestConfig } from 'axios';
 import { EmissionTest } from '@/models/EmissionTest.interface';
-import { config } from 'process';
 import PreviewTable from '@/components/PreviewTable/PreviewTable';
 
 const Index = ({
