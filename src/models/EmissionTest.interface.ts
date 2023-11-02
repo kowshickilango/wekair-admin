@@ -11,7 +11,7 @@ export interface EmissionTest {
 
   airFilter: boolean;
 
-  otherIssue: boolean;
+  otherIssue?: boolean;
 
   vehicle: Vehicle;
 
